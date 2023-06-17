@@ -1,6 +1,6 @@
 # wepack-starter-template
 
-A minimal starter project for building frontend applications, bundled using Webpack 5.
+A simple game which counts up and displays the number. For every multiple of 5 a cat icon is shown and for every multiple of 7 a bee icon is shown. The icons are generated from the google emoji sprite sheet.
 
 ## Getting started
 

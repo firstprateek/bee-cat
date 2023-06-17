@@ -9,8 +9,18 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-    <main>
-      <h1>Hello World</h1>
-    </main>
+    <button data-component="beecat"></button>
+
+    <template data-template-for="beecat" data-template-id="num">
+      <span class="icon num"></span>
+    </template>
+
+    <template data-template-for="beecat" data-template-id="bee">
+      <span class="icon bee"></span>
+    </template>
+
+    <template data-template-for="beecat" data-template-id="cat">
+      <span class="icon cat"></span>
+    </template>
   </body>
 </html>

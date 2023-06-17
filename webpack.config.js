@@ -29,7 +29,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.scss$/,
+                test: /\.css$/,
                 use: [
                     'style-loader', 'css-loader', 'sass-loader'
                 ]
@@ -53,7 +53,7 @@ module.exports = {
     // plugins
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Webpack App',
+            title: 'BeeCat',
             filename: 'index.html',
             template: 'src/template.html'
         }),
